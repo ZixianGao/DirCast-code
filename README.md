@@ -27,28 +27,6 @@ A live esports broadcast needs a director who picks which camera goes on air and
 
 <p align="center"><img src="assets/framework.png" width="900" alt="Framework"></p>
 
-## Results
-
-Full test split (4 held-out matches). DirCast is the mean of three seeds.
-
-| Directing | Top-1 ↑ | Any-vis. ↑ | Cut F1 ↑ | Kill cov. ↑ | Cuts/min |
-|---|---|---|---|---|---|
-| Action rule | 25.4 | 36.1 | 11.5 | 78.5 | 5.8 |
-| GPT-5 (zero-shot) | 13.5 | 24.8 | 11.6 | 85.3 | 51.7 |
-| **DirCast** | **27.0** | **41.8** | **14.1** | **89.1** | 6.7 |
-| Human director | 100 | 100 | 100 | 50.3 | 7.9 |
-
-| Commentary (Proact-VL protocol) | CC ↑ | F1 ↑ | TimeDiff ↓ |
-|---|---|---|---|
-| LiveCC-7B-Base | 19.38 | 64.61 | 8.32 |
-| Proact-VL (Qwen3) | 17.73 | 83.21 | 0.34 |
-| Proact-VL (Qwen3), fine-tuned on our data | 18.25 | 83.08 | 0.34 |
-| **DirCast** (comments on its own program) | **29.21** | 78.22 | **0.30** |
-
-All baselines comment on the finished human broadcast; DirCast comments on the program it directs itself. See the paper for all baselines and metrics.
-
-<p align="center"><img src="assets/qualitative.jpg" width="900" alt="Kills that DirCast shows and the human crew misses"></p>
-
 ## Code
 
 ```
