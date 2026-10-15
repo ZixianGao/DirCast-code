@@ -57,21 +57,6 @@ pip install -r requirements.txt
 
 The base model is `Qwen/Qwen3-VL-8B-Instruct` (set `DIRCAST_BASE_MODEL` to use a local copy).
 
-### Data
-
-The dataset (27 professional Dota 2 matches with ten rendered hero cameras, the human director's choice for every second and the casters' commentary) is not included in this repository. The code expects it under `DIRCAST_DATA` (default `./data`):
-
-```
-data/
-  index/{train,val,test}.jsonl     one row per 36 s clip (stride 18 s)
-  index_polished/                  same index with polished commentary (used for training and evaluation)
-  matches/<match_id>/t<tick>/      one 300 s window: package/*.npz (ten feeds at 1 fps), aligned/hero_k.mp4,
-                                   labels/, state_feats.npy
-  meta/                            match metadata (heroes, players, kills) and alignment
-```
-
-Each clip row holds per-second lists of length 36, among them `camera_labels` (the feed the human director put on air), `visible_slots` (all feeds showing an on-screen hero), `vod_state_labels` (only `LIVE` seconds are directing decisions), `verified_mask` (seconds used for training), `strict_mask` (seconds used for evaluation) and `commentary_by_second`.
-
 ### Training
 
 ```bash
