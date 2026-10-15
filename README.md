@@ -10,7 +10,7 @@ Zixian Gao<sup>1,2</sup>, Lixin Xiu<sup>2</sup>, Penghao Luo<sup>3</sup>, Erwin 
 
 [Project page](https://zixiangao.github.io/DirCast/) · Paper (coming soon) · [Demo video](assets/dircast_demo.mp4)
 
-<img src="assets/demo.gif" width="760" alt="DirCast cutting to a kill and commentating it live">
+<img src="assets/demo.webp" width="900" alt="DirCast cutting to a kill and commentating it live">
 
 <sub>DirCast on a held-out match. Pangolier kills Clockwerk away from the shot on air; DirCast cuts to the fight in the same second and comments on it. <a href="assets/dircast_demo.mp4">Full demo (86 s)</a>.</sub>
 
