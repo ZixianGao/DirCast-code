@@ -1,0 +1,8 @@
+# tested with Python 3.12, CUDA 12.8
+torch==2.10.0
+transformers==5.8.1
+peft==0.19.1
+av==17.0.1
+numpy==1.26.4
+pillow
+flash-attn==2.8.3  # vision tower uses flash_attention_2 (varlen packing of the ten feeds)
