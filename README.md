@@ -4,9 +4,9 @@
 
 **Live Esports Directing and Commentary with a Single Streaming Video-Language Model**
 
-Zixian Gao<sup>1,2</sup>, Lixin Xiu<sup>2</sup>, Penghao Luo<sup>3</sup>, Erwin Wu<sup>4</sup>, Kaipeng Zhang<sup>1†</sup>
+Zixian Gao<sup>1,2</sup>, Lixin Xiu<sup>2</sup>, Penghao Luo<sup>3</sup>, Xiangcheng Cao<sup>1</sup>,<br>Ziqi Cai<sup>1,4,5</sup>, Zhen Li<sup>1,2</sup>, Erwin Wu<sup>5</sup>, Kaipeng Zhang<sup>1†</sup>
 
-<sup>1</sup>Alaya Lab &nbsp; <sup>2</sup>The University of Tokyo &nbsp; <sup>3</sup>Georgia Institute of Technology &nbsp; <sup>4</sup>Institute of Science Tokyo
+<sup>1</sup>Alaya Lab &nbsp; <sup>2</sup>The University of Tokyo &nbsp; <sup>3</sup>Georgia Institute of Technology &nbsp; <sup>4</sup>Peking University &nbsp; <sup>5</sup>Institute of Science Tokyo
 
 [Project page](https://zixiangao.github.io/DirCast/) · Paper (coming soon) · [Demo video](assets/dircast_demo.mp4)
 
@@ -86,7 +86,7 @@ python -m dircast.long_stream --ckpt runs/dircast/ckpt_ep2.pt --out outputs/long
 ```bibtex
 @article{gao2026dircast,
   title   = {DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model},
-  author  = {Gao, Zixian and Xiu, Lixin and Luo, Penghao and Wu, Erwin and Zhang, Kaipeng},
+  author  = {Gao, Zixian and Xiu, Lixin and Luo, Penghao and Cao, Xiangcheng and Cai, Ziqi and Li, Zhen and Wu, Erwin and Zhang, Kaipeng},
   journal = {arXiv preprint},
   year    = {2026}
 }
