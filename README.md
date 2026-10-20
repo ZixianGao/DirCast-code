@@ -1,6 +1,6 @@
 <div align="center">
 
-# DirCast
+<img src="assets/logo.png" width="520" alt="DirCast">
 
 **Live Esports Directing and Commentary with a Single Streaming Video-Language Model**
 
