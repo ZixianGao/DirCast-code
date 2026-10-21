@@ -4,7 +4,7 @@
 
 **Live Esports Directing and Commentary with a Single Streaming Video-Language Model**
 
-Zixian Gao<sup>1,2</sup>, Lixin Xiu<sup>2</sup>, Penghao Luo<sup>3</sup>, Xiangcheng Cao<sup>1</sup>,<br>Ziqi Cai<sup>1,4,5</sup>, Zhen Li<sup>1,2</sup>, Erwin Wu<sup>5</sup>, Kaipeng Zhang<sup>1†</sup>
+<a href="https://scholar.google.com/citations?user=Ku5ijSIAAAAJ">Zixian Gao</a><sup>1,2</sup>, <a href="https://riishin.github.io/">Lixin Xiu</a><sup>2</sup>, Penghao Luo<sup>3</sup>, <a href="https://openreview.net/profile?id=~Xiangcheng_Cao1">Xiangcheng Cao</a><sup>1</sup>,<br><a href="https://caiziqi.com/">Ziqi Cai</a><sup>1,4,5</sup>, <a href="https://lixsp11.github.io/">Zhen Li</a><sup>1,2</sup>, <a href="https://erwinwu.com/">Erwin Wu</a><sup>5</sup>, <a href="https://scholar.google.com/citations?user=4OqZBmYAAAAJ">Kaipeng Zhang</a><sup>1†</sup>
 
 <sup>1</sup>Alaya Lab &nbsp; <sup>2</sup>The University of Tokyo &nbsp; <sup>3</sup>Georgia Institute of Technology &nbsp; <sup>4</sup>Peking University &nbsp; <sup>5</sup>Institute of Science Tokyo
 
