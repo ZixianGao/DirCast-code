@@ -8,7 +8,7 @@
 
 <sup>1</sup>Alaya Lab &nbsp; <sup>2</sup>The University of Tokyo &nbsp; <sup>3</sup>Georgia Institute of Technology &nbsp; <sup>4</sup>Peking University &nbsp; <sup>5</sup>Institute of Science Tokyo
 
-[Project page](https://zixiangao.github.io/DirCast/) · Paper (coming soon) · [Demo video](assets/dircast_demo.mp4)
+[Project page](https://zixiangao.github.io/DirCast/) · [Paper](https://arxiv.org/abs/2610.31734) · [Demo video](assets/dircast_demo.mp4)
 
 <img src="assets/demo.webp" width="900" alt="DirCast cutting to a kill and commentating it live">
 
@@ -87,7 +87,7 @@ python -m dircast.long_stream --ckpt runs/dircast/ckpt_ep2.pt --out outputs/long
 @article{gao2026dircast,
   title   = {DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model},
   author  = {Gao, Zixian and Xiu, Lixin and Luo, Penghao and Cao, Xiangcheng and Cai, Ziqi and Li, Zhen and Wu, Erwin and Zhang, Kaipeng},
-  journal = {arXiv preprint},
+  journal = {arXiv preprint arXiv:2610.31734},
   year    = {2026}
 }
 ```
